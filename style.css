@@ -1,0 +1,308 @@
+.header-bg{
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-bg-about{
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/b6474c4f.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-bg-hizmet{
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/771e046a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-bg-kariyer{
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/2c6fd614.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-bg-anasayfa{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://aksan.av.tr/Photos/Slider/thumbs/e3d75e70.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainPart2{
+    height: 50vh;
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://aksan.av.tr/Photos/PageContent/thumbs/a42e67fa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.nav-item .nav-link{
+    color: white;
+}
+
+.nav-item .nav-link:hover{
+    color: gray;
+}
+
+.menu-left ul li:hover{
+    transition: .5;
+    cursor: pointer;
+}
+
+.search h6{
+    color: brown;
+}
+
+.search input{
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.search select{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.search-btn{
+    padding: 1rem;
+}
+
+.alfabe-search ul li{
+    margin-right: 1rem;
+}
+
+.logo{
+    max-width: 236px !important;
+}
+
+.btn{
+    background-color: none;
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.alfabe-search h6{
+    color: brown;
+}
+
+.footer{
+    background-color: rgb(1, 1, 26);
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.cursor:hover{
+    color: gray;
+    transition: .3s;
+}
+
+.form-control{
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.form-control:active{
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.form-control:focus{
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fa:hover{
+    opacity: .75;
+}
+
+.fa-facebook {
+    background: #3b589800;
+    color: white;
+  }
+
+  .fa-facebook:hover {
+    background: rgba(245, 245, 245, 0);
+    color: gray;
+  }
+
+  .fa-twitter {
+    background: #55acee00;
+    color: white;
+  }
+
+  .fa-twitter:hover {
+    background:rgba(245, 245, 245, 0) ;
+    color: gray;
+  }
+
+  .fa-linkedin {
+    background: #007cb500;
+    color: white;
+  }
+
+  .fa-linkedin:hover {
+    background:rgba(245, 245, 245, 0) ;
+    color: gray;
+  }
+
+.mainMenuButton{
+    text-decoration: none;
+    color:gray ;
+    margin: 15px;
+}  
+
+.mainMenuButton :hover{
+    color: rgb(192, 34, 34);
+}
+
+.tarihceWrapper{
+    margin-left: 10%;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.contact{
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/761b60e4.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnAra{
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-bottom: white 1px solid;
+    color: white;
+}
+
+.btnAra:hover{
+    background-color: white;
+    color: black;
+}
+
+.mainMenu{
+    display: flex;
+}
+
+#history{
+    margin: 2%;
+    padding: 2%;
+    width: 90%;
+}
+
+.ayirici{
+    width: 75%;
+}
+
+@media screen and (max-width:720px) {
+    
+    .mainMenu{
+        display: block;
+        text-align: center;
+    }
+    .tarihceWrapper{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .tarihce{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #history{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .mainMenuButton{
+        margin: 1px;
+    }
+    .ayirici{
+        width: 100%;
+    }
+    .menu-left{
+        text-align: center;
+    }
+    .picWrapper{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .footerMobileNews{
+        display: none;
+    }
+    .small{
+        text-align: center;
+    }
+    .aboneOlMobile{
+        width: 100%;
+    }
+}
+
+.point{
+    cursor: pointer;
+}
+.point:hover{
+    color: rgb(202, 65, 65);
+}
+
+.mainPicture{
+    height: 400px;
+    width: 100%;
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/CareerSlider/thumbs/e259d235.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.basvuru{
+    background:linear-gradient(rgba(18, 20, 54, 0.664), rgba(25, 27, 56, 0.692)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/5e798fbd.jpg);
+    background-position:center;
+}
+
+.circlePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background:url(https://www.aksan.av.tr/Photos/Testimonial/thumbs/f55cbbd9.JPG) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.giris{
+    height: 80vh;
+}
+
+.littleText{
+    color: gray;
+}
+
+.card{
+    border: none;
+}
